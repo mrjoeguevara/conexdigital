@@ -1,0 +1,437 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  color:#556A79;
+}
+
+.no-gutter {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.blue{
+	background-color: #5CA9DD;
+	color:#ffffff;
+}
+
+.red {
+	background-color: #EF4D3F;
+	color:#ffffff;
+}
+
+.green {
+	background-color: #66C18B;
+	color:#ffffff;
+} 
+
+.yellow {
+	background-color: #F3C812;
+	color:#ffffff;
+}
+
+.silver{
+  background-color: #556A79;
+  color:#ffffff;
+}
+
+h1{
+	color: #556A79;
+}
+
+p{
+	color: #556A79;
+  font-size: 20px;
+  line-height: 33px;
+}
+
+a{
+  color:#F58221;
+}
+
+a:hover{
+ color:#F58221;
+}
+
+img{
+	width: 100%;
+}
+
+nav{
+	padding: 90px 0 60px;
+}
+
+.lno-logo{
+  padding-top: 36px;
+}
+
+.volume{
+  padding-top: 32px;
+  font-size: 16px;
+}
+
+.article{
+	padding-bottom: 60px; 
+}
+
+.head-type{
+  margin-bottom: 20px;
+}
+
+.head-type li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.articulo-destacado-bg{
+	background-image: url('../img/image1.png');
+	background-size: cover;
+	background-position:center center;
+  min-height: 450px;
+}
+
+.mejor-practica-del-mes-bg{
+  background-image: url('../img/mejor-practica-del-mes.png');
+  background-size: cover;
+  background-position:center center;
+  min-height: 450px;
+}
+
+.experto-digital-bg{
+  background-image: url('../img/experto-digital.png');
+  background-size: cover;
+  background-position:center center;
+  min-height: 450px;
+}
+
+.noticias-1{
+  background-image: url('../img/noticias-1.png');
+  background-size: cover;
+  background-position:center center;
+  min-height: 450px;
+}
+
+.noticias-2{
+  background-image: url('../img/noticias-2.png');
+  background-size: cover;
+  background-position:center center;
+  min-height: 450px;
+}
+
+.estudio-de-caso-bg{
+  background-image: url('../img/estudio-de-caso.png');
+  background-size: cover;
+  background-position:center center;
+  min-height: 450px;
+}
+
+.plantilla-del-mes-bg{
+  background-image: url('../img/plantilla-del-mes-bg.png');
+  background-size: cover;
+  background-position:center center;
+  min-height: 450px;
+}
+
+.encuesta-del-mes-bg{
+  background-image: url('../img/encuesta-del-mes-bg.png');
+  background-size: cover;
+  background-position:center center;
+  min-height: 450px;
+}
+
+.que-opina-bg{
+  background-image: url('../img/que-opina-bg.png');
+  background-size: cover;
+  background-position:center center;
+  min-height: 450px;
+}
+
+.aprendizaje-digital{
+  font-size: 23px;
+  width: 375px;
+}
+
+.article-tittle{
+	padding:45px 40px;
+  min-height: 450px;
+}
+
+.article-tittle a {
+  color:#ffffff;
+}
+
+.article-tittle a:hover {
+    color: #ffffff;
+}
+
+.article-featured{
+	min-height: 590px;
+}
+
+.icon {
+	width: 40px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+/* button One */
+
+.button-contain{
+	display: flex;
+  align-items: center;
+  position: absolute;
+  top: 90px;
+}
+
+.btn--circle {
+	position: relative;
+  top: 395px;
+  text-decoration: none;
+  border-radius: 1000px;
+  height: 65px;
+  width: 65px;
+  transition: all cubic-bezier(0.31, -0.105, 0.43, 1.4) 0.2s;
+  background-color: #ffffff;
+}
+
+.btn--circle:hover {
+  width: 290px;
+}
+
+.btn--circle:hover .btn--stage:first-child {
+  opacity: 0;
+}
+
+.btn--circle:hover .btn--stage:nth-child(n+2) {
+  opacity: 1;
+  transition: opacity linear calc(0.2s + 0.05s);
+}
+
+.btn-circle {
+  position: relative;
+  top: 250px;
+  text-decoration: none;
+  border-radius: 1000px;
+  height: 65px;
+  width: 65px;
+  transition: all cubic-bezier(0.31, -0.105, 0.43, 1.4) 0.2s;
+  background-color: #ffffff;
+}
+
+/* button Two*/
+
+.btn-circle:hover {
+  width: 290px;
+}
+
+.btn-circle:hover .btn--stage:first-child {
+  opacity: 0;
+}
+
+.btn-circle:hover .btn--stage:nth-child(n+2) {
+  opacity: 1;
+  transition: opacity linear calc(0.2s + 0.05s);
+}
+
+.btn--stage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #F4811F;
+  transition: opacity linear calc(0.2s - 0.05s);
+}
+
+.btn--stage:nth-child(n+2) {
+  opacity: 0;
+  white-space: nowrap;
+  font-size: 22px;
+}
+
+/* Back button */
+
+.back-btn{
+  z-index: 2000;
+  position: absolute;
+  top: 135px;
+  left: 35px;
+  text-decoration: none;
+  border-radius: 1000px;
+  height: 65px;
+  width: 65px;
+  background-color: #ffffff;
+  transition: all 0.3s ease-out;
+  -webkit-box-shadow: 0px 0px 71px 16px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 71px 16px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 71px 16px rgba(0,0,0,0.15);
+}
+
+.back-btn:hover {
+  transform: scale(1.09, 1.09);
+  box-shadow: 0px 0px 71px 16px rgba(0,0,0,0);
+
+}
+
+.arrow-back{
+    width: 31px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    left: 16px;
+}
+  
+footer{
+  color:#556A79;
+  text-align: center;
+  padding:40px 30px;
+  font-size: 18px;
+}
+
+.lno-logo-footer{
+  display: none;
+  max-width: 330px;
+  padding:35px 0;    
+}
+
+.tittle-article{
+  font-size: 44px;
+  padding-bottom: 40px;
+}
+
+.article-wrap{
+  padding: 20px 60px 85px;
+  -webkit-box-shadow: 0px 0px 150px -13px rgba(0,0,0,0.07);
+  -moz-box-shadow: 0px 0px 150px -13px rgba(0,0,0,0.07);
+  box-shadow: 0px 0px 150px -13px rgba(0,0,0,0.07);
+}
+
+
+
+/* Media queries */
+
+
+@media (min-width: 320px) and (max-width: 900px) {
+
+ .head-type li h1{
+  font-size:30px;
+}
+
+.icon {
+  margin-left: 15px;
+  width: 28px; 
+}
+
+.aprendizaje-digital {
+  width: 420px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+.logo{
+  width: 220px;
+}
+
+
+@media (min-width: 300px) and (max-width: 768px) {
+
+  .head-type li h1{
+    font-size:22px;
+  }
+
+  .icon {
+    margin-left: 15px;
+    width: 28px; 
+  }
+
+  h2{
+    font-size: 30px !important;
+  }
+
+  .aprendizaje-digital {
+    width: 257px;
+    font-size: 18px !important;
+  }
+
+  .logo{
+    width: 200px;
+  }
+
+  .hidden-xs-down{
+    display: none;
+  }
+
+  .lno-logo-footer{
+    display: initial;
+  }
+
+  .volume {
+    padding-top: 10px;
+    font-size: 14px;
+  }
+
+  .btn-circle:hover {
+    width: 235px;
+  }
+
+}
+
+
+
+@media (min-width: 300px) and (max-width: 568px) {
+
+  .head-type li h1{
+    font-size:20px;
+  }
+
+  .icon {
+    margin-left: 15px;
+    width: 28px; 
+  }
+
+  h2{
+    font-size: 30px !important;
+  }
+
+  .aprendizaje-digital {
+    width: 257px;
+    font-size: 18px !important;
+  }
+
+  .logo{
+    width: 200px;
+  }
+
+  .hidden-xs-down{
+    display: none;
+  }
+
+  .lno-logo-footer{
+    display: initial;
+  }
+
+  .volume {
+    padding-top: 30px;
+    font-size: 14px;
+  }
+
+  .btn-circle:hover {
+    width: 235px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
